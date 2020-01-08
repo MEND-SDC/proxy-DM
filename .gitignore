@@ -1,0 +1,6 @@
+# newrelic instance private information
+newrelic.js
+
+newrelic_agent.log
+
+node_modules

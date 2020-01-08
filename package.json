@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./server/index.js",
-    "server": "node server/server.js"
+    "server": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^0.20.0",
+    "newrelic": "^6.2.0",
     "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^0.20.0"
   }
 }
