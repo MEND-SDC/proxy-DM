@@ -1,0 +1,11 @@
+config:
+  target: 'http://localhost:4000'
+  http:
+    pool: 10
+  phases:
+    - arrivalRate: 2000
+      duration: 30
+scenarios:
+  - flow:
+    - get:
+        url: "/listing/1000000"
