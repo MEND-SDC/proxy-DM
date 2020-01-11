@@ -11,7 +11,7 @@ app.use(cors());
 // serve up static file
 
 const reviews = {
-  target: 'http://localhost:3003',
+  target: 'http://54.153.73.27:3003',
   changeOrigin: true,
 };
 
